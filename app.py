@@ -6,14 +6,6 @@ st.set_page_config(layout="wide")
 
 st.title('John Dellape')
 
-with st.sidebar:
-    st.header('Find Me:')
-    components.html(
-        """<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="john-dellape" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/john-dellape?trk=profile-badge"></a></div>
-        """, height=310
-        )
-    st.markdown("[GitHub](https://github.com/jdellape)")
 st.header('About Me')
 st.markdown("I enjoy applying data focused programming while working with others to solve meaningful information coordination problems.\
             My interests and technical competencies cut across the traditional lines of 'data analytics', 'data engineering' and 'data science'.\
