@@ -8,12 +8,14 @@ st.title('John Dellape')
 
 st.header('About Me')
 st.markdown("I enjoy applying data focused programming while working with others to solve meaningful information coordination problems.\
-            My interests and technical competencies cut across the traditional lines of 'data analytics', 'data engineering' and 'data science'.\
-            For my current job, I spend a lot of time writing SQL queries against a Redshift datawarehouse and visualizing the results in Looker. \
+            My interests and technical competencies cut across the traditional lines of 'data analytics', 'data engineering' and 'data science'.")
+
+st.markdown("For my current job, I spend a lot of time writing SQL queries against a Redshift datawarehouse and visualizing the results in Looker. \
             Most importantly, I spend a lot of time in communication with colleagues and clients about the questions and problems they face, discussing \
             how a data product can provide a solution for them, and working through cycles of developing a data product, showing it, receiving feedback, \
-            and improving the product until we have solved the original problem. \
-            I have come to love using streamlit as my primary outlet for developing and deploying data focused applications using python. \
+            and improving the product until we have solved the original problem.")
+
+st.markdown("I have come to love using streamlit as my primary outlet for developing and deploying data focused applications using python. \
             I genuinely enjoy my line of work and spend a lot of my time outside of my job working on side projects and learning about current developments \
             in the field. This streamlit app serves as a repository of my work and the resources I have learned from.")
 
