@@ -17,7 +17,7 @@ st.markdown("For my current job, I spend a lot of time writing SQL queries again
 
 st.markdown("I have come to love using streamlit as my primary outlet for developing and deploying data focused applications using python. \
             I genuinely enjoy my line of work and spend a lot of my time outside of my job working on side projects and learning about current developments \
-            in the field. This streamlit app serves as a repository of my work and the resources I have learned from.")
+            in the field. This streamlit app serves as a repository of my ongoing work and the resources I have learned from.")
 
 st.header('Streamlit Projects')
 
@@ -99,17 +99,22 @@ st.header('Learning Resources')
 lr_pod_col, lr_site_col, lr_other_col = st.columns((1,1,1))
 with lr_pod_col:
     st.subheader('Podcasts')
-
-    st.write('https://podcasts.apple.com/us/podcast/the-analytics-engineering-podcast/id1574755368')
-    st.write('https://talkpython.fm/episodes/all')
-    st.write('https://pythonbytes.fm/')
-    st.write('https://www.dataengineeringpodcast.com/')
-    st.write('https://twimlai.com/podcast/twimlai/')
+    st.markdown('[The Analytics Engineering Podcast](https://podcasts.apple.com/us/podcast/the-analytics-engineering-podcast/id1574755368)', unsafe_allow_html=True)
+    st.markdown('[Talk Python Podcast](https://talkpython.fm)', unsafe_allow_html=True)
+    st.markdown('[Python Bytes](https://pythonbytes.fm/)', unsafe_allow_html=True)
+    st.markdown('[The Data Engineering Podcast](https://www.dataengineeringpodcast.com/)', unsafe_allow_html=True)
+    st.markdown('[TWIML AI](https://twimlai.com/podcast/twimlai/)', unsafe_allow_html=True)
+    st.markdown('[Command Line Heroes](https://www.redhat.com/en/command-line-heroes)', unsafe_allow_html=True)
 
 with lr_site_col:
     st.subheader('Websites / Blogs')
     st.write('https://applyingml.com/')
     st.write('https://vickiboykis.com/')
+    st.write('https://pycoders.com/')
+    st.write('https://mlops.community/')
 
 with lr_other_col:
     st.subheader('Other')
+    st.markdown('[Minimum Viable SQL Patterns](https://ergestx.gumroad.com/l/sqlpatterns)', unsafe_allow_html=True)
+    st.markdown('[The Data Warehouse Toolkit](https://www.oreilly.com/library/view/the-data-warehouse/9781118530801/)', unsafe_allow_html=True)
+    st.markdown('[Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)', unsafe_allow_html=True)
